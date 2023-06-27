@@ -1,8 +1,17 @@
 
 <div class="container">
-    <h1>{{ title }}</h1>
+    <h2>Componente padre</h2>
 
-    <input type="text" class="form-control" [(ngModel)]="title">
+    <app-add-messages></app-add-messages>
 
-    <app-children [title]="title"></app-children>
+    <app-list-messages></app-list-messages>
+
+
+
+
+
+    
+    <!-- <input type="text" class="form-control mb-4" [(ngModel)]="title">
+
+    <app-children [(title)]="title"></app-children> -->
 </div>
